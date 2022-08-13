@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+
+class b {
+-CajaDeAhorro
++suma()
+*b()
+}
+
+
+@enduml

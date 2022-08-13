@@ -1,0 +1,37 @@
+class cajaDeAhorro{
+-saldo: double
+-titular: String
+-CBU: bigint
+-Alias: String
++cajaDeAhorro()
++Retirar(double saldo)
++Depositar(double saldo)
++Transferir(double saldo)
+}
+class cheque{
+-fechaEmision: localDate
+-fechaVencimiento: localDate
+-tipo: String
++Cheque()
++endoso(localDate FechaVencimiento)
+}
+
+
+class mascota{
+-nombre: String
+-edad: int
+-peso: double
+-altura: double
+-estado: String
++pesarMascota(peso double)
++medirMascota(altura double)
++registrarEstado(estado String)
+
+}
+class Cliente{
+-nombre: String
+-mascota: String
+
+
++pagarConsulta()
+}
